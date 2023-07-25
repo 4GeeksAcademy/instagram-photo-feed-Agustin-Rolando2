@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.encabezado{
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 10px;
+
+}
+.logo{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+
+}
+.logo .logo-html{
+    width: 40px;
+    max-height: 100%;
+
+}
+
+.logo .logo-html img{
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 5px;
+}
+
+
+.home{
+    background-color: white;
+    display: flex;
+    width: 700px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.titulo{
+    max-width: 100%;
+    max-height: 100%;
+}
+.tres-puntos{
+    width: 25px;
+    height: 100%;
+}
+.tres-puntos img{
+    width: 25px;
+    max-height: 100%;
+    margin-top: 5px;
+}
+.imagen{
+    max-width:100%;
+}
+.imagen img{
+    max-width: 100%;
+    width: 100%;
+}
+.tres{
+    display: flex;
+}
+
+.iconos{
+    display: flex;
+    justify-content: space-between;
+
+}
+ .megusta{
+    margin: 10px 10px 10px 5px;
+ }
+ .comentario{
+    margin: 10px 10px 10px 5px;
+
+ }
+  .compartir{
+    margin: 10px 10px 10px 5px;
+  }
+  .guardar{
+    margin: 10px 10px 10px 5px;
+  }
+  .like{
+    padding: 10px;
+  }
+  .texto{
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+  }
